@@ -2,7 +2,7 @@ var Dancer = function(top, left, timeBetweenSteps){
   this._top = top;
   this._left = left;
   this._timeBetweenSteps = timeBetweenSteps;
-  this._$node = $('<span class="dancer"></span>');
+  this.$node = $('<span class="dancer"></span>');
 };
 
 Dancer.prototype.step = function(){
